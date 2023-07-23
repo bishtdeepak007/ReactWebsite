@@ -1,0 +1,49 @@
+.GoToTop-section {
+    .topBtn {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        background: #ff9f06;
+        z-index: 10;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 2px 0px blueviolet;
+
+        .icon {
+            animation: updown 1.5s linear infinite alternate-reverse;
+        }
+
+        &:hover {
+            color: #fff;
+            background-color: #29394f;
+            box-shadow: 0px 0px 0px 0px #1f1e1c;
+        }
+
+    }
+
+    @keyframes updown {
+        0% {
+            transform: translateY(-6px);
+        }
+
+        100% {
+            transform: translateY(6px);
+        }
+    }
+}
+
+@media screen and (max-width:574px) {
+    .GoToTop-section .topBtn {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        position: fixed;
+        right: 20px;
+        bottom: 22px;
+    }
+}

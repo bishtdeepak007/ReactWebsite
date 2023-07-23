@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #29394f;
+    font-weight: 500;
+
+    li,
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    li,
+    p {
+        margin: 0;
+        padding: 0;
+        // color: #1e1147;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    form {
+        .ant-row {
+
+            .ant-col.ant-form-item-control,
+            .ant-picker {
+                flex: auto;
+                width: 100%;
+            }
+        }
+
+        .ant-col.ant-form-item-label {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 5px;
+
+            label {
+                height: auto;
+                color: #808080;
+                font-size: 15px;
+            }
+        }
+
+        span.ant-input-password {
+            padding: 0;
+            border: 0;
+            outline: none;
+            box-shadow: none;
+            position: relative;
+
+            input#basic_password {
+                width: 100%;
+            }
+
+            span.ant-input-suffix {
+                position: absolute;
+                right: 20px;
+                top: calc(50% - 6px);
+            }
+        }
+
+        input.ant-input,
+        .ant-input-affix-wrapper>input.ant-input {
+            background-color: rgb(195 195 195 / 25%) !important;
+            border: 0;
+            padding: 14px 15px;
+            outline: none;
+            box-shadow: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        input.ant-input[readonly] {
+            background: #ff9e062b !important;
+            color: #626262fc;
+            cursor: not-allowed;
+        }
+
+        .ant-select {
+            .ant-select-selector {
+                height: auto;
+                padding: 10px 15px;
+                border-radius: 8px;
+                border-color: #d9d9d9 !important;
+                box-shadow: none;
+
+                .ant-select-selection-search {
+                    left: 15px;
+
+                    input {
+                        height: 100%;
+                        box-shadow: none;
+                        border: 0;
+                    }
+                }
+
+                .ant-select-selection-placeholder {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #d5d5d5;
+                }
+
+                span.ant-select-selection-item {
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .ant-form-item-explain {
+            font-size: 13px;
+        }
+    }
+
+    .ant-btn {
+        background: #29394f;
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 5px;
+        height: auto;
+        border: none;
+        transition: 300ms ease-in-out;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover {
+            background: #ff9f06;
+            color: #fff;
+        }
+
+        &:focus {
+            background: #ff9f06;
+            color: #fff;
+        }
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    body {
+        font-size: 14px;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        form {
+            .ant-col.ant-form-item-label {
+                label {
+                    font-size: 14px;
+                }
+            }
+
+            input.ant-input,
+            .ant-input-affix-wrapper>input.ant-input {
+                font-size: 14px;
+            }
+
+            .ant-form-item-explain {
+                font-size: 12px;
+            }
+        }
+
+        .ant-btn {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 13px;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+
+        form {
+            .ant-col.ant-form-item-label {
+                label {
+                    font-size: 14px;
+                }
+            }
+
+            input.ant-input,
+            .ant-input-affix-wrapper>input.ant-input {
+                font-size: 14px;
+            }
+
+            .ant-form-item-explain {
+                font-size: 12px;
+            }
+        }
+
+        .ant-btn {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        .ant-btn {
+            font-size: 12px;
+        }
+    }
+}

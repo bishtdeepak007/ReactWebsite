@@ -1,0 +1,126 @@
+.loading {
+    text-align: center;
+}
+
+.grid-section {
+    margin-top: 20px;
+
+
+    .grid-main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .grid-inner {
+            margin-bottom: 30px;
+
+            .grid-img {
+                position: relative;
+            }
+
+            .grid-img::after {
+                content: "";
+                height: 100%;
+                left: 0;
+                top: 0;
+                width: 0px;
+                position: absolute;
+                transition: all 0.4s ease-in-out;
+                background: rgba(241, 239, 239, 0.3);
+            }
+
+            .grid-img:hover::after {
+                width: 100%;
+
+            }
+
+            img {
+                width: 300px;
+                aspect-ratio: 1.5;
+                transition: 0.4s ease-in-out;
+                position: relative;
+            }
+
+            img:hover {
+                scale: 1.03;
+            }
+
+            .grid-info {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding-top: 12px;
+                box-sizing: border-box;
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .grid-section {
+        .grid-main {
+            .grid-inner {
+                img {
+                    width: 258px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .grid-section {
+        .grid-main {
+            .grid-inner {
+                img {
+                    width: 230px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .grid-section {
+        .grid-main {
+            .grid-inner {
+                p {
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 175px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:574px) {
+    .grid-section {
+        .grid-main {
+            .grid-inner {
+                margin-bottom: 17px;
+
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    font-size: 12px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .grid-info {
+                    padding-top: 9px;
+                }
+            }
+        }
+    }
+}

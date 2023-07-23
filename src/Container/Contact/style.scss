@@ -1,0 +1,132 @@
+.contact-section {
+    padding: 40px 0px;
+    background: #f6f6f6;
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+    }
+
+    .contact-form {
+        margin: 40px auto;
+        width: 50%;
+    }
+
+    form input.ant-input,
+    form .ant-input-affix-wrapper>input.ant-input {
+        border-radius: 0px;
+        background: #fff !important;
+        border: 1px solid #000;
+    }
+
+    button.ant-btn.ant-btn-default {
+        font-size: 18px;
+        padding: 8px 26px !important;
+    }
+
+    .ant-input {
+        border: 1px solid #000000 !important;
+    }
+
+    .ant-input:focus,
+    .ant-input-focused {
+        border-color: #40a9ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+}
+
+@media screen and (max-width:1199px) {
+
+    .contact-section {
+        padding: 40px 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .contact-section {
+        padding: 40px 0px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        .contact-form {
+            margin: 40px auto;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .contact-section {
+        padding: 30px 0px;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        form input.ant-input,
+        form .ant-input-affix-wrapper>input.ant-input {
+            padding: 12px !important;
+        }
+
+        button.ant-btn.ant-btn-default {
+            padding: 7px 14px !important;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width:574px) {
+
+    .contact-section {
+        padding: 20px 0px;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        .contact-form {
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        form input.ant-input,
+        form .ant-input-affix-wrapper>input.ant-input {
+            padding: 10px !important;
+        }
+
+        .ant-form-item {
+            margin: 10px 0px;
+        }
+
+        .ant-col.ant-form-item-label {
+            padding: 0px;
+        }
+
+        textarea.ant-input {
+            line-height: 1;
+        }
+
+        button.ant-btn.ant-btn-default {
+            padding: 5px 14px !important;
+            font-size: 12px;
+        }
+
+        form input.ant-input,
+        form .ant-input-affix-wrapper>input.ant-input {
+            padding: 11px 15px;
+            font-size: 14px;
+        }
+    }
+}

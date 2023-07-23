@@ -1,0 +1,307 @@
+footer {
+    // margin-top: 100px;
+    background: #32244d;
+    position: relative;
+    // margin-top: 100px;
+
+    p {
+        color: #fff;
+        line-height: 20px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    h4 {
+        color: #fff;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        margin-bottom: 10px !important;
+        text-transform: capitalize;
+    }
+
+    .footer-top {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        top: -48px;
+        color: #fff !important;
+        left: 0;
+        right: 0;
+        padding: 28px;
+        background: #ded7fb;
+        border-radius: 5px;
+        border: 1px solid #e2cfcf;
+        box-shadow: 1px 0px 17px -12px #000;
+
+        p {
+            color: #000;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+
+    .footer-mid {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: #fff !important;
+
+        button.ant-btn.css-dev-only-do-not-override-1sn0ohr.ant-btn-primary {
+            background: #ff9f06;
+            border: 1px solid #ff9f06;
+        }
+
+        button.ant-btn.css-dev-only-do-not-override-1sn0ohr.ant-btn-primary:hover {
+            background: transparent;
+        }
+
+        .ant-form-item {
+            box-sizing: border-box;
+            margin-bottom: 15px;
+
+            input#username {
+                padding: 7px;
+            }
+        }
+
+        .footer-mid-3-inner {
+            display: flex;
+            justify-content: space-between;
+
+            svg {
+                font-size: 17px;
+                border: 1px solid;
+                border-radius: 50%;
+                padding: 6px;
+                box-sizing: content-box;
+                margin-right: 10px;
+                transition: 0.4s;
+                color: #e387ae;
+            }
+
+            svg:hover {
+                background: #fff;
+                color: #000;
+            }
+        }
+
+        .footer-mid-4 p a {
+            color: #fff !important;
+        }
+    }
+
+    .footer-last {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+
+    }
+}
+
+footer::after {
+    content: "";
+    height: 1px;
+    bottom: 40px;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+}
+
+
+@media screen and (max-width:991px) {
+    footer {
+        h4 {
+            font-size: 15px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        .footer-top {
+            top: -42px;
+            padding: 20px;
+
+        }
+
+        .footer-mid {
+            margin-bottom: 80px;
+            display: flex;
+            justify-content: space-between;
+            color: #fff !important;
+
+            .ant-form-item {
+                box-sizing: border-box;
+                margin-bottom: 15px;
+
+                input#username {
+                    padding: 7px;
+                }
+            }
+
+            .footer-mid-3-inner {
+                display: flex;
+                justify-content: space-between;
+
+                svg {
+                    font-size: 17px;
+                    border: 1px solid;
+                    border-radius: 50%;
+                    padding: 6px;
+                    box-sizing: content-box;
+                    margin-right: 10px;
+                    transition: 0.4s;
+                }
+
+                svg:hover {
+                    background: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    footer {
+        h4 {
+            font-size: 14px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+        .footer-top {
+            top: -38px;
+            padding: 17px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+
+        .footer-mid {
+            margin-bottom: 40px;
+
+            .footer-mid-1,
+            .footer-mid-1 {
+                width: 30%;
+            }
+
+            .ant-form-item {
+                input#username {
+                    padding: 4px;
+                }
+            }
+
+            .footer-mid-3-inner {
+                svg {
+                    padding: 5px;
+                    margin-right: 9px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:574px) {
+    footer {
+        h4 {
+            font-size: 12px !important;
+            font-weight: 400 !important;
+        }
+
+        p {
+            font-size: 11px;
+            font-family: 'Poppins';
+            font-weight: 400;
+        }
+
+        .footer-top {
+            top: -35px;
+            padding: 6px;
+            justify-content: center;
+            border-radius: 0px;
+            box-shadow: none;
+
+            p {
+                font-size: 12px;
+                width: 100%;
+                text-align: center;
+
+            }
+
+            button.ant-btn.ant-btn-default {
+                padding: 5px 10px !important;
+                margin-top: 4px;
+                font-size: 10px;
+            }
+
+        }
+
+        .footer-mid {
+            margin-bottom: 30px;
+
+            .ant-form-item {
+                margin-bottom: 10px;
+            }
+
+            .footer-mid-1 {
+                width: 40%;
+            }
+
+            .footer-mid-2 {
+                width: 50%;
+
+                .ant-input {
+                    padding: 4px 11px;
+                    font-size: 12px;
+                    border-radius: 0px;
+
+                }
+
+                button.ant-btn.ant-btn-primary {
+                    padding: 5px 9px !important;
+                }
+
+                .ant-form-item-control-input-content {
+                    max-width: 50%;
+                }
+            }
+
+            .footer-mid-3 {
+                width: 30%;
+                margin-top: 14px;
+
+                .footer-mid-3-inner {
+                    svg {
+                        padding: 5px;
+                        margin-right: 6px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .footer-mid-4 {
+                margin-top: 14px;
+                width: 50%;
+            }
+        }
+    }
+
+    .footer-last .footer-policy {
+        display: none;
+    }
+
+    footer::after {
+        height: 0.5px;
+        bottom: 30px;
+    }
+}

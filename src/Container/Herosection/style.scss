@@ -1,0 +1,324 @@
+.carousel-section {
+    .herosection-banner {
+        width: 100%;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .herosection {
+        .herosection-text {
+            width: 35%;
+            position: absolute;
+            top: 25%;
+            text-transform: uppercase;
+
+            span {
+                font-size: 30px;
+            }
+
+            h1 {
+                font-size: 70px !important;
+                font-family: auto;
+            }
+
+            h2 {
+                font-size: 60px;
+            }
+
+            P {
+                font-size: 30px;
+            }
+
+            button.ant-btn.ant-btn-primary {
+                text-transform: capitalize;
+                padding: 6px 25px !important;
+                margin-top: 18px;
+                border: 1px solid;
+                display: flex;
+
+                &:hover {
+                    background: #27acb3;
+                }
+            }
+
+        }
+    }
+
+    .herosection-one {
+        .herosection-text {
+            width: 35%;
+            position: absolute;
+            bottom: 35%;
+            left: 26%;
+            text-transform: uppercase;
+
+            button.ant-btn.ant-btn-primary {
+                text-transform: capitalize;
+                padding: 6px 25px !important;
+                margin-top: 18px;
+                display: flex;
+                font-size: 30px;
+
+                &:hover {
+                    background: #27acb3;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1399px) {
+    // .container {
+    //     width: 1140px;
+    // }
+
+    .carousel-section {
+        .herosection {
+            .herosection-text {
+                span {
+                    font-size: 25px;
+                }
+
+                h1 {
+                    font-size: 60px !important;
+                }
+
+                h2 {
+                    font-size: 50px;
+                }
+
+                P {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .herosection-one {
+            .herosection-text {
+                bottom: 35%;
+                left: 25%;
+
+                button.ant-btn.ant-btn-primary {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1199px) {
+    // .container {
+    //     width: 950px;
+    // }
+
+    .carousel-section {
+        .herosection {
+            .herosection-text {
+                span {
+                    font-size: 20px;
+                }
+
+                h1 {
+                    font-size: 50px !important;
+                }
+
+                h2 {
+                    font-size: 40px;
+                }
+
+                P {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .herosection-one {
+            .herosection-text {
+                button.ant-btn.ant-btn-primary {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    // .container {
+    //     width: 950px;
+    // }
+
+    .carousel-section {
+        .herosection {
+            .herosection-text {
+
+                span {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 40px !important;
+                }
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                P {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .herosection-one {
+            .herosection-text {
+
+                button.ant-btn.ant-btn-primary {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    // .container {
+    //     width: 540px;
+    // }
+
+    .carousel-section {
+        .herosection {
+            .herosection-text {
+
+                span {
+                    font-size: 15px;
+                }
+
+                h1 {
+                    font-size: 27px !important;
+                }
+
+                h2 {
+                    font-size: 22px;
+                }
+
+                P {
+                    font-size: 18px;
+                }
+
+                button.ant-btn.ant-btn-primary {
+                    text-transform: capitalize;
+                    padding: 6px 25px !important;
+                    margin-top: 6px;
+                }
+            }
+        }
+
+        .herosection-one {
+            .herosection-text {
+                bottom: 32%;
+                left: 20%;
+
+                button.ant-btn.ant-btn-primary {
+                    font-size: 15px;
+
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:575px) {
+
+    .carousel-section {
+        .herosection {
+            .herosection-text {
+                top: 20%;
+
+                span {
+                    font-size: 11px;
+                }
+
+                h1 {
+                    font-size: 22px !important;
+                }
+
+                h2 {
+                    font-size: 15px;
+                }
+
+                P {
+                    font-size: 13px;
+                }
+
+                button.ant-btn.ant-btn-primary {
+                    margin-top: 6px;
+                    padding: 5px 18px !important;
+                }
+            }
+        }
+
+        .herosection-one {
+            .herosection-text {
+                bottom: 30%;
+
+                button.ant-btn.ant-btn-primary {
+                    margin-top: 6px;
+                    font-size: 11px;
+                    padding: 5px 18px !important;
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:420px) {
+
+        .carousel-section {
+            .herosection {
+                .herosection-text {
+                    top: 14%;
+
+                    span {
+                        font-size: 9px;
+                    }
+
+                    h1 {
+                        font-size: 18px !important;
+                    }
+
+                    h2 {
+                        font-size: 14px;
+                    }
+
+                    P {
+                        font-size: 11px;
+                    }
+
+                    button.ant-btn.ant-btn-primary {
+                        padding: 4px 12px !important;
+                        margin-top: 3px;
+                        font-size: 12px;
+                        display: flex;
+                    }
+                }
+            }
+
+            .herosection-one {
+                .herosection-text {
+
+                    button.ant-btn.ant-btn-primary {
+                        font-size: 9px;
+                        padding: 4px 12px !important;
+                    }
+                }
+            }
+        }
+
+    }
+}
