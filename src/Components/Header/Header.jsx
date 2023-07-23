@@ -45,7 +45,7 @@ const Header = () => {
 
     }
     const loginBtn = () => {
-        // window.location.href = "/login";
+         window.location.href = "/login";
     }
     useEffect(() => {
         loginLogout()
